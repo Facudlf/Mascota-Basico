@@ -1,5 +1,4 @@
 # Mascota-Basico
-Introducción
 Modelar e implementar en java la clase "Mascota" a partir de la cual se puedan instanciar objetos que representan una mascota virtual en una aplicación que emula este tipo de juegos.
 Esencialmente la mascota tiene energía un número entero entre 0 y 100 y humor un valor entero entre 1 y 5 que significa: muy enojado, enojado, neutral, contento y chocho respectivamente desde el 1 hasta el 5.
 Dicha mascota debe responder a los siguientes mensajes implementados en comportamientos que están divididos en comportamientos de ingesta, comportamientos de actividad y otros.
@@ -24,3 +23,5 @@ Notas:
 1. la energía no puede superar 100 unidades, es decir si está en 100 no aumenta y si baja de cero la mascota muere y ya no responde más a ningún comportamiento.
 2. el nivel de alegría fluctúa entre 1 muuuuy enojado y 5 chocho y si la alegría llega a 0 la mascota se va a dormir por propia iniciativa.
 3. cuando la mascota está en un estado que no responde a cierto comportamiento el mismo debe retornar false y si el comportamiento se pudo realizar correctamente retorna true.
+
+El origen de la ejercitacion es de la Universidad Tecnologica Nacional, Facultad Regional Cordoba de la materia Backend de aplicaciones.
